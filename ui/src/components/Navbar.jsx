@@ -11,15 +11,18 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-20 border-b border-border bg-canvas/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
-        <a href="#top" className="flex items-center gap-2.5">
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent text-white shadow-soft">
-            <Compass size={18} strokeWidth={2.2} />
+
+        <a href="#top" className="flex items-center gap-3">
+          <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-white shadow-lg">
+            <Compass size={24} strokeWidth={2.4} />
           </span>
+
           <span className="flex flex-col leading-none">
-            <span className="font-display text-[17px] font-semibold tracking-tight text-ink">
+            <span className="font-display text-[20px] font-bold tracking-tight text-ink">
               TourSight AI
             </span>
-            <span className="text-[11px] font-medium tracking-wide text-ink-faint">
+
+            <span className="text-[12px] font-medium tracking-wide text-ink-faint">
               Tourism Demand Prediction
             </span>
           </span>
@@ -43,6 +46,7 @@ export default function Navbar() {
         >
           Predict
         </a>
+
       </div>
     </header>
   )
