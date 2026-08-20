@@ -1,5 +1,6 @@
 pandas
 numpy
-scikit-learn
-streamlit
+scikit-learn==1.6.1
 joblib
+fastapi
+uvicorn

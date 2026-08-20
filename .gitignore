@@ -1,5 +1,13 @@
 __pycache__/
 *.pyc
+
 .venv/
-.env
 .venv313/
+
+.env
+ui/.env
+
+node_modules/
+ui/node_modules/
+dist/
+ui/dist/

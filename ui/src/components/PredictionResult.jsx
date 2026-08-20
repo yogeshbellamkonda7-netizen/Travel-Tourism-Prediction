@@ -50,7 +50,7 @@ export default function PredictionResult({ status, result, error }) {
             <span className="num-display text-5xl font-semibold text-ink sm:text-6xl">
               {result.predictedVisits.toLocaleString('en-IN')}
             </span>
-            <span className="-mt-2 text-xs text-ink-faint">visitors</span>
+            <span className="-mt-2 text-xs text-ink-faint">Million visitors</span>
 
             {result.demandLevel && (
               <span

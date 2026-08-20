@@ -17,8 +17,8 @@ export default function Footer() {
         </div>
         <p className="mt-2 max-w-lg text-sm leading-relaxed text-ink-soft">
           A tourism demand forecasting project built for our ML internship.
-          Predictions on this dashboard use mock data until the trained
-          model is connected to the live API.
+Predictions are generated using our trained machine-learning model
+and real tourism dataset.
         </p>
 
         <div className="mt-6 flex flex-wrap gap-x-8 gap-y-3">

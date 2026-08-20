@@ -2,7 +2,8 @@ import { Compass } from 'lucide-react'
 
 const NAV_LINKS = [
   { label: 'Prediction', href: '#prediction' },
-  { label: 'Analytics', href: '#analytics' },
+  { label: 'History', href: '#history' },
+  { label: 'Compare', href: '#compare' },
   { label: 'About', href: '#about' },
 ]
 
